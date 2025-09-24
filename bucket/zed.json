@@ -1,16 +1,21 @@
 {
-    "version": "0.204.2",
+    "version": "0.204.5",
     "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source. This is a fork that fixes LSP path problem. (like 'C:\\C:\\' )",
     "homepage": "https://zed.dev/",
     "license": "AGPL-3.0, Apache-2.0, GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lilnasy/zed-windows-builds/releases/download/v0.204.2/zed.zip",
-            "hash": "3d6d29f5b1851448ff0a57c69b66c38fee826a72092a9ea886dfe961c6bc885a"
+            "url": "https://github.com/lilnasy/zed-windows-builds/releases/download/v0.204.5/zed.zip",
+            "hash": "6d6154c93e69d5a22335e73723ce0b82287169566ba0544399ed35aa6da40642"
         }
     },
     "bin": "zed.exe",
-    "shortcuts": [["zed.exe", "Zed"]],
+    "shortcuts": [
+        [
+            "zed.exe",
+            "Zed"
+        ]
+    ],
     "checkver": {
         "url": "https://github.com/lilnasy/zed-windows-builds/releases",
         "regex": "v(\\d+\\.\\d+\\.\\d+)"
