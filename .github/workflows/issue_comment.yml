@@ -1,11 +1,13 @@
 on:
   issue_comment:
     types: [created]
+
 name: Commented Pull Request
 jobs:
   pullRequestHandler:
     name: PullRequestHandler
     runs-on: windows-latest
+
     steps:
       - uses: actions/checkout@main
       - name: PullRequestHandler

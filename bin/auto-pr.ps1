@@ -1,5 +1,4 @@
 param(
-    # overwrite upstream param
     [String]$upstream = "iliqiliev/iliya-bucket:main"
 )
 
